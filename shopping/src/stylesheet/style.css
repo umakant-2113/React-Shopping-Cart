@@ -1,0 +1,302 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Anchor Decoration */
+a {
+  text-decoration: none;
+}
+
+/* Image Adjust */
+.full-width {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Positions */
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.z-index-100 {
+  z-index: 100;
+}
+
+.z-index-50 {
+  z-index: 50;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.35rem 1rem;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: whitesmoke;
+  cursor: pointer;
+  background-color: black;
+  margin: 5px 0;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: purple;
+  border: 1px solid purple;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin: 10px 1rem;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  background-color: cornflowerblue;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.flex-15 {
+  flex: 0 1 15%;
+}
+
+.flex-60 {
+  flex: 0 1 65%;
+}
+
+.flex-60 div {
+  margin: 10px 3px;
+}
+
+.h2 {
+  font-size: 1.3rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.product-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-div {
+  text-align: center;
+}
+
+.input-div input {
+  width: 60%;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  outline-color: cornflowerblue;
+  border-radius: 2px 20px 2px 20px;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.tag-list li {
+  width: 60px;
+  height: 60px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-family: "Combo", cursive;
+  cursor: pointer;
+}
+
+.cart-img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.cart-div {
+  margin-top: 3.3rem;
+}
+
+.select {
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 0.3rem 0.6rem;
+  color: white;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  outline: none;
+  margin: 2px 0;
+}
+
+#active {
+  background-color: black;
+  color: white;
+  width: 60px;
+  height: 60px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-family: "Combo", cursive;
+  cursor: pointer;
+}
+
+.cart-img2 {
+  width: 200px;
+}
+
+.total {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  font-weight: 600;
+  margin-top: 1.3rem;
+}
+
+.cart-box {
+  display: none;
+}
+
+.span {
+  cursor: pointer;
+}
+
+.increament-btn {
+  display: flex;
+}
+
+.increament-btn button {
+  margin: 0.3rem 1rem 0.3rem 0;
+}
+
+.name {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 1rem;
+  margin: 0.2rem 0;
+}
+
+.quantity {
+  margin: 0.2rem 0;
+}/*# sourceMappingURL=style.css.map */
